@@ -10,9 +10,9 @@ variable "aws_region" {
 variable "assume_role" {
   type = map
   default = {
-    "dev"   = "arn:aws:iam::00000000:role/stylesage-admins"
-    "pre"   = "arn:aws:iam::00000000:role/stylesage-admins"
-    "pro"   = "arn:aws:iam::00000000:role/stylesage-admins" 
+    "dev"   = "arn:aws:iam::00000000:role/ricardoplaza-admins"
+    "pre"   = "arn:aws:iam::00000000:role/ricardoplaza-admins"
+    "pro"   = "arn:aws:iam::00000000:role/ricardoplaza-admins" 
   }
 }
 
